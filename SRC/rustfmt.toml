@@ -1,0 +1,36 @@
+# Equivalent formatting configuration for Rust
+max_width = 100
+hard_tabs = false
+tab_spaces = 4
+use_field_init_shorthand = true
+use_try_shorthand = true
+newline_style = "Unix"
+merge_imports = true
+reorder_imports = true
+indent_style = "Block"
+fn_single_line = true
+
+# Format where opening braces are placed
+brace_style = "AlwaysNextLine"
+
+# Ensures long chains are broken into multiple lines
+chain_indent = "Visual"
+
+# Controls how enum variants are displayed
+enum_discrim_align_threshold = 50
+
+# Handles trailing commas in arrays and function calls
+trailing_comma = "Always"
+
+# Group imports in a consistent order
+group_imports = "StdExternalCrate"
+
+# Allow condensing small inline blocks
+condense_wildcard_suffixes = true
+
+# Control spacing within structs, enums, and closures
+struct_field_align_threshold = 50
+struct_lit_single_line = true
+array_layout = "Block"
+closure_block_indent = true
+type_punctuation_spacing = true
