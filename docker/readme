@@ -29,3 +29,26 @@ Provides the groundwork for integrating the Rust implementation into the BTCZ ma
 Experiment with New Features:
 
 The modularity of Docker enables you to extend this setup with additional services, such as a Rust-based blockchain explorer, without affecting the core node.
+
+TO BUILD AND RUN THE DOCKER ENVIRONMENT:
+
+BUILD THE DOCKER IMAGE:
+
+bash
+Copy code
+docker-compose build
+START THE SERVICES:
+
+bash
+Copy code
+docker-compose up -d
+CHECK LOGS:
+
+bash
+Copy code
+docker-compose logs -f
+TEST RPC COMMANDS: USE CURL OR ANY RPC CLIENT TO TEST:
+
+bash
+Copy code
+curl --user btczrpc:supersecurepassword --data-binary '{"jsonrpc":"1.0","id":"curltest","method":"getblockchaininfo","params":[]}' -H 'content-type: text/plain;' http://127.0.0.1:8332/
