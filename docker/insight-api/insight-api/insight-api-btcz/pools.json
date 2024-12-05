@@ -1,0 +1,170 @@
+[
+    {
+      "poolName": "NaN",
+      "url": "",
+      "searchStrings": [
+          "/NaN"
+      ]
+    },
+    {
+    	"poolName": "Zpool",
+    	"url": "https://zpool.ca/",
+    	"searchStrings": [
+    	    "zpool"
+    	]
+    },
+    {
+    	"poolName": "Solopool",
+    	"url": "https://btcz.solopool.org/",
+    	"searchStrings": [
+    	    "solopool"
+    	]
+    },
+  	{
+    	"poolName": "Zergpool",
+    	"url": "https://zergpool.com",
+    	"searchStrings": [
+    	    "Zergpool"
+    	]
+    },
+    {
+        "poolName": "K1Pool",
+        "url": "https://k1pool.com/pool/btcz",
+        "searchStrings": [
+            "K1Pool"
+        ]
+    },
+    {
+        "poolName": "2Mars",
+        "url": "https://btcz.2mars.biz",
+        "searchStrings": [
+            "2Mars"
+        ]
+    },
+    {
+        "poolName": "DarkFiberMines",
+        "url": "https://btcz.darkfibermines.com",
+        "searchStrings": [
+            "DarkFiberMines"
+        ]
+    },
+    {
+        "poolName": "BTCzAppPool",
+        "url": "https://mine.btcz.app",
+        "searchStrings": [
+            "BTCzAppPool"
+        ]
+    },
+    {
+        "poolName": "Equipool Asia",
+        "url": "https://equipool.1ds.us/getting_started",
+        "searchStrings": [
+            "Equipool Asia"
+        ]
+    },
+    {
+        "poolName": "Equipool Europe",
+        "url": "https://equipool.1ds.us/getting_started",
+        "searchStrings": [
+            "Equipool Europe"
+        ]
+    },
+    {
+        "poolName": "Equipool North America",
+        "url": "https://equipool.1ds.us/getting_started",
+        "searchStrings": [
+            "Equipool North America"
+        ]
+    },
+    {
+        "poolName": "CryptoBroker",
+        "url": "https://pool.cryptobroker.io",
+        "searchStrings": [
+            "CryptoBroker"
+        ]
+    },
+    {
+        "poolName": "GetPool",
+        "url": "https://getpool.network/",
+        "searchStrings": [
+            "getpool"
+        ]
+    },
+    {
+        "poolName": "Mining4",
+        "url": "http://equi.mining4.co.uk",
+        "searchStrings": [
+            "Mining4"
+        ]
+    },
+    {
+        "poolName": "miningspeed",
+        "url": "http://pool.miningspeed.com/",
+        "searchStrings": [
+            "miningspeed.com"
+        ]
+    },
+    {
+        "poolName": "RagnarPool",
+        "url": "http://pool.bitcoinzguiding.ovh",
+        "searchStrings": [
+            "bitcoinzguiding"
+        ]
+    },
+    {
+        "poolName": "LamboMoon",
+        "url": "https://lambomoon.club",
+        "searchStrings": [
+            "LamboMoon"
+        ]
+    },
+    {
+        "poolName": "AxePool.com",
+        "url": "https://axepool.com",
+        "searchStrings": [
+            "AxePool.com"
+        ]
+    },
+    {
+        "poolName": "WorldMiner",
+        "url": "https://worldminer.net",
+        "searchStrings": [
+            "WorldMiner"
+        ]
+    },
+    {
+        "poolName": "Geekhash.io",
+        "url": "http://Geekhash.io",
+        "searchStrings": [
+            "Geekhash.io"
+        ]
+    },
+    {
+        "poolName": "Digital49er",
+        "url": "http://uspool.digital49er.com",
+        "searchStrings": [
+            "Digital49er"
+        ]
+    },
+    {
+        "poolName": "CoinBlockers",
+        "url": "https://btcz.coinblockers.com",
+        "searchStrings": [
+            "coinblockers.com - https://coinblockers.com"
+        ]
+    },
+    {
+        "poolName": "NibiruPool",
+        "url": "https://nibirupool.com/",
+        "searchStrings": [
+            "NibiruPool"
+        ]
+    },
+    {
+        "poolName": "EquiGems",
+        "url": "https://equigems.online",
+        "searchStrings": [
+            "EquiGems"
+        ]
+    }
+]

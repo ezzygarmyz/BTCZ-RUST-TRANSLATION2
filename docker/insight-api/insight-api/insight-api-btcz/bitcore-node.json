@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-api",
+    "insight-ui"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "connect": [{
+        "rpchost": "localhost",
+        "rpcport": 8332,
+        "rpcuser": "btczrpc",
+        "rpcpassword": "supersecurepassword"
+      }]
+    }
+  }
+}
