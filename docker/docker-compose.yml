@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  rust-node:
+    build:
+      context: .
+    container_name: btc-rust-node
+    volumes:
+      - ./config:/config
+      - ./data:/data
+      - ./logs:/logs
+    ports:
+      - "8332:8332"  # RPC
+      - "8333:8333"  # P2P
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
+    command: ["--config", "/config/bitcoinz.conf"]
+
+  seed-node-setup:
+    image: alpine
+    container_name: btc-seed-setup
+    volumes:
+      - ./scripts:/scripts
+    command: ["sh", "/scripts/setup-seed-nodes.sh"]
+    depends_on:
+      - rust-node
