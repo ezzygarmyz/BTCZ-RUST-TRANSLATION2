@@ -1,0 +1,22 @@
+# example-linearize.toml
+# Configuration file for linearizing the block files in BTCZ
+
+# datadir specifies the location of the BTCZ data directory
+datadir = "/home/user/.bitcoinz"
+
+# input hashlist (linearize-hashes output)
+hashlist = "./hashlist.txt"
+
+# output file for linearized blockchain data
+output_file = "./linearized.bin"
+
+# RPC configuration
+[rpc]
+user = "username"
+password = "password"
+port = 8332
+
+# start and end block heights
+[start_end]
+start_height = 0
+end_height = 500000
