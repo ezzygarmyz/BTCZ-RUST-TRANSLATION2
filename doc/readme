@@ -1,1 +1,23 @@
+# BitcoinZ - Rust Implementation
+
+## Overview
+BitcoinZ is a decentralized, open-source cryptocurrency focused on privacy and scalability. This repository represents the complete Rust translation of the BitcoinZ core, ensuring improved performance, safety, and maintainability while preserving the original architecture and functionality.
+
+## Features
+- **Rust-Powered**: The core has been fully translated to Rust for enhanced security and reliability.
+- **Decentralized**: Fully peer-to-peer with no central authority.
+- **Privacy**: Optional zk-SNARKs integration for private transactions.
+- **Scalable**: 2 MB block size with fast block intervals.
+
+## Getting Started
+### Requirements
+- **Rust**: Version 1.65+ installed.
+- **Cargo**: Rust's package manager (included with Rust).
+- **Dependencies**: Managed via `Cargo.toml`.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jeelybeely/BTCZ-RUST-TRANSLATION2.git
+   cd BTCZ-RUST-TRANSLATION2
 
